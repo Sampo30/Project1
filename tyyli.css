@@ -1,20 +1,20 @@
-/* Include the padding and border in an element's total width and height */
+/* Reunat ja rajat */
 * {
     box-sizing: border-box;
   }
   
-  /* Remove margins and padding from the list */
+  /* Marginaalit */
   ul {
-    margin: 0;
-    padding: 0;
+    margin: 100;
+    padding: 10;
   }
   
-  /* Style the list items */
+  /* Listan tyyli */
   ul li {
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
-    background: #eee;
+    background: rgb(140, 84, 158);
     font-size: 18px;
     transition: 0.2s;
   
